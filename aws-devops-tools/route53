@@ -1,1 +1,18 @@
 
+Amazon Route 53 is a scalable and highly available Domain Name System (DNS) web service provided by AWS. 
+
+Route 53 simplifies managing DNS records and routing traffic to your web applications.
+
+Key Features of Route 53:
+
+DNS Management: You can create and manage DNS records for your domain names.
+Domain Registration: You can register new domain names directly through Route 53.
+Health Checks: Route 53 can monitor the health of your application and route traffic away from unhealthy resources.
+Traffic Management: Route 53 offers various routing policies like simple, weighted, latency-based, and geo-location routing.
+
+
+steps:
+
+1.purchase the domain.
+2. create hosted zones in aws.(public or private).
+3. we need to update aws name servers in the google name servers(default one).
