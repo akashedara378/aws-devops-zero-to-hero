@@ -11,6 +11,16 @@ Health Checks: Route 53 can monitor the health of your application and route tra
 Traffic Management: Route 53 offers various routing policies like simple, weighted, latency-based, and geo-location routing.
 
 
+types of records:
+1. www.example.com. 300 IN A 192.0.2.1
+2. www.example.com. 300 IN AAAA 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+3. blog.example.com. 300 IN CNAME www.example.com.
+4. example.com. 300 IN MX 10 mail.example.com.
+
+types of routing:
+1. simple routing
+2. weighted routing(using load balancer) -> we need vpc
+3. 
 steps:
 
 1.purchase the domain.
