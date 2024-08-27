@@ -1,0 +1,7 @@
+AWS LAMBDA: AWS Lambda is a service that lets you run code without needing to manage servers. You simply write your code, upload it to Lambda, and
+AWS takes care of running it whenever it's needed.
+
+
+AWS FARGATE: 
+AWS Fargate is a service that allows you to run containers without having to manage the underlying servers or infrastructure.
+
